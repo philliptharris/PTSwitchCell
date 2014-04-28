@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11FC309E190EC36000458F6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FC309D190EC36000458F6C /* Foundation.framework */; };
+		11FC30A0190EC36000458F6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FC309F190EC36000458F6C /* CoreGraphics.framework */; };
+		11FC30A2190EC36000458F6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FC30A1190EC36000458F6C /* UIKit.framework */; };
+		11FC30A8190EC36000458F6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11FC30A6190EC36000458F6C /* InfoPlist.strings */; };
+		11FC30AA190EC36000458F6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FC30A9190EC36000458F6C /* main.m */; };
+		11FC30AE190EC36000458F6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FC30AD190EC36000458F6C /* AppDelegate.m */; };
+		11FC30B1190EC36000458F6C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FC30AF190EC36000458F6C /* Main_iPhone.storyboard */; };
+		11FC30B4190EC36000458F6C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FC30B2190EC36000458F6C /* Main_iPad.storyboard */; };
+		11FC30B7190EC36000458F6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FC30B6190EC36000458F6C /* ViewController.m */; };
+		11FC30B9190EC36000458F6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FC30B8190EC36000458F6C /* Images.xcassets */; };
+		11FC30C0190EC36000458F6C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FC30BF190EC36000458F6C /* XCTest.framework */; };
+		11FC30C1190EC36000458F6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FC309D190EC36000458F6C /* Foundation.framework */; };
+		11FC30C2190EC36000458F6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FC30A1190EC36000458F6C /* UIKit.framework */; };
+		11FC30CA190EC36000458F6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11FC30C8190EC36000458F6C /* InfoPlist.strings */; };
+		11FC30CC190EC36000458F6C /* PTSwitchCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FC30CB190EC36000458F6C /* PTSwitchCellTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11FC30C3190EC36000458F6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11FC3092190EC36000458F6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11FC3099190EC36000458F6C;
+			remoteInfo = PTSwitchCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11FC309A190EC36000458F6C /* PTSwitchCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTSwitchCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FC309D190EC36000458F6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11FC309F190EC36000458F6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11FC30A1190EC36000458F6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11FC30A5190EC36000458F6C /* PTSwitchCell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PTSwitchCell-Info.plist"; sourceTree = "<group>"; };
+		11FC30A7190EC36000458F6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11FC30A9190EC36000458F6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11FC30AB190EC36000458F6C /* PTSwitchCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PTSwitchCell-Prefix.pch"; sourceTree = "<group>"; };
+		11FC30AC190EC36000458F6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11FC30AD190EC36000458F6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11FC30B0190EC36000458F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		11FC30B3190EC36000458F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		11FC30B5190EC36000458F6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11FC30B6190EC36000458F6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11FC30B8190EC36000458F6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11FC30BE190EC36000458F6C /* PTSwitchCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTSwitchCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FC30BF190EC36000458F6C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		11FC30C7190EC36000458F6C /* PTSwitchCellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PTSwitchCellTests-Info.plist"; sourceTree = "<group>"; };
+		11FC30C9190EC36000458F6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11FC30CB190EC36000458F6C /* PTSwitchCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTSwitchCellTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11FC3097190EC36000458F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FC30A0190EC36000458F6C /* CoreGraphics.framework in Frameworks */,
+				11FC30A2190EC36000458F6C /* UIKit.framework in Frameworks */,
+				11FC309E190EC36000458F6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FC30BB190EC36000458F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FC30C0190EC36000458F6C /* XCTest.framework in Frameworks */,
+				11FC30C2190EC36000458F6C /* UIKit.framework in Frameworks */,
+				11FC30C1190EC36000458F6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11FC3091190EC36000458F6C = {
+			isa = PBXGroup;
+			children = (
+				11FC30A3190EC36000458F6C /* PTSwitchCell */,
+				11FC30C5190EC36000458F6C /* PTSwitchCellTests */,
+				11FC309C190EC36000458F6C /* Frameworks */,
+				11FC309B190EC36000458F6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11FC309B190EC36000458F6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11FC309A190EC36000458F6C /* PTSwitchCell.app */,
+				11FC30BE190EC36000458F6C /* PTSwitchCellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11FC309C190EC36000458F6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11FC309D190EC36000458F6C /* Foundation.framework */,
+				11FC309F190EC36000458F6C /* CoreGraphics.framework */,
+				11FC30A1190EC36000458F6C /* UIKit.framework */,
+				11FC30BF190EC36000458F6C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11FC30A3190EC36000458F6C /* PTSwitchCell */ = {
+			isa = PBXGroup;
+			children = (
+				11FC30AC190EC36000458F6C /* AppDelegate.h */,
+				11FC30AD190EC36000458F6C /* AppDelegate.m */,
+				11FC30AF190EC36000458F6C /* Main_iPhone.storyboard */,
+				11FC30B2190EC36000458F6C /* Main_iPad.storyboard */,
+				11FC30B5190EC36000458F6C /* ViewController.h */,
+				11FC30B6190EC36000458F6C /* ViewController.m */,
+				11FC30B8190EC36000458F6C /* Images.xcassets */,
+				11FC30A4190EC36000458F6C /* Supporting Files */,
+			);
+			path = PTSwitchCell;
+			sourceTree = "<group>";
+		};
+		11FC30A4190EC36000458F6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11FC30A5190EC36000458F6C /* PTSwitchCell-Info.plist */,
+				11FC30A6190EC36000458F6C /* InfoPlist.strings */,
+				11FC30A9190EC36000458F6C /* main.m */,
+				11FC30AB190EC36000458F6C /* PTSwitchCell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11FC30C5190EC36000458F6C /* PTSwitchCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				11FC30CB190EC36000458F6C /* PTSwitchCellTests.m */,
+				11FC30C6190EC36000458F6C /* Supporting Files */,
+			);
+			path = PTSwitchCellTests;
+			sourceTree = "<group>";
+		};
+		11FC30C6190EC36000458F6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11FC30C7190EC36000458F6C /* PTSwitchCellTests-Info.plist */,
+				11FC30C8190EC36000458F6C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11FC3099190EC36000458F6C /* PTSwitchCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FC30CF190EC36000458F6C /* Build configuration list for PBXNativeTarget "PTSwitchCell" */;
+			buildPhases = (
+				11FC3096190EC36000458F6C /* Sources */,
+				11FC3097190EC36000458F6C /* Frameworks */,
+				11FC3098190EC36000458F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PTSwitchCell;
+			productName = PTSwitchCell;
+			productReference = 11FC309A190EC36000458F6C /* PTSwitchCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11FC30BD190EC36000458F6C /* PTSwitchCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FC30D2190EC36000458F6C /* Build configuration list for PBXNativeTarget "PTSwitchCellTests" */;
+			buildPhases = (
+				11FC30BA190EC36000458F6C /* Sources */,
+				11FC30BB190EC36000458F6C /* Frameworks */,
+				11FC30BC190EC36000458F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11FC30C4190EC36000458F6C /* PBXTargetDependency */,
+			);
+			name = PTSwitchCellTests;
+			productName = PTSwitchCellTests;
+			productReference = 11FC30BE190EC36000458F6C /* PTSwitchCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11FC3092190EC36000458F6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Phillip Harris";
+				TargetAttributes = {
+					11FC30BD190EC36000458F6C = {
+						TestTargetID = 11FC3099190EC36000458F6C;
+					};
+				};
+			};
+			buildConfigurationList = 11FC3095190EC36000458F6C /* Build configuration list for PBXProject "PTSwitchCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11FC3091190EC36000458F6C;
+			productRefGroup = 11FC309B190EC36000458F6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11FC3099190EC36000458F6C /* PTSwitchCell */,
+				11FC30BD190EC36000458F6C /* PTSwitchCellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11FC3098190EC36000458F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FC30B4190EC36000458F6C /* Main_iPad.storyboard in Resources */,
+				11FC30B9190EC36000458F6C /* Images.xcassets in Resources */,
+				11FC30B1190EC36000458F6C /* Main_iPhone.storyboard in Resources */,
+				11FC30A8190EC36000458F6C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FC30BC190EC36000458F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FC30CA190EC36000458F6C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11FC3096190EC36000458F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FC30B7190EC36000458F6C /* ViewController.m in Sources */,
+				11FC30AE190EC36000458F6C /* AppDelegate.m in Sources */,
+				11FC30AA190EC36000458F6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FC30BA190EC36000458F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FC30CC190EC36000458F6C /* PTSwitchCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11FC30C4190EC36000458F6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11FC3099190EC36000458F6C /* PTSwitchCell */;
+			targetProxy = 11FC30C3190EC36000458F6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11FC30A6190EC36000458F6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FC30A7190EC36000458F6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11FC30AF190EC36000458F6C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FC30B0190EC36000458F6C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		11FC30B2190EC36000458F6C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FC30B3190EC36000458F6C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		11FC30C8190EC36000458F6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FC30C9190EC36000458F6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11FC30CD190EC36000458F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11FC30CE190EC36000458F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11FC30D0190EC36000458F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PTSwitchCell/PTSwitchCell-Prefix.pch";
+				INFOPLIST_FILE = "PTSwitchCell/PTSwitchCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11FC30D1190EC36000458F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PTSwitchCell/PTSwitchCell-Prefix.pch";
+				INFOPLIST_FILE = "PTSwitchCell/PTSwitchCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		11FC30D3190EC36000458F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PTSwitchCell.app/PTSwitchCell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PTSwitchCell/PTSwitchCell-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PTSwitchCellTests/PTSwitchCellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		11FC30D4190EC36000458F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PTSwitchCell.app/PTSwitchCell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PTSwitchCell/PTSwitchCell-Prefix.pch";
+				INFOPLIST_FILE = "PTSwitchCellTests/PTSwitchCellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11FC3095190EC36000458F6C /* Build configuration list for PBXProject "PTSwitchCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FC30CD190EC36000458F6C /* Debug */,
+				11FC30CE190EC36000458F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FC30CF190EC36000458F6C /* Build configuration list for PBXNativeTarget "PTSwitchCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FC30D0190EC36000458F6C /* Debug */,
+				11FC30D1190EC36000458F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11FC30D2190EC36000458F6C /* Build configuration list for PBXNativeTarget "PTSwitchCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FC30D3190EC36000458F6C /* Debug */,
+				11FC30D4190EC36000458F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11FC3092190EC36000458F6C /* Project object */;
+}
